@@ -7,19 +7,23 @@
 .picture2{
    
     background-image: url(/2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 300px;
-}
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 205%;
+      height: 300px;
+      margin-top:25px;
+      margin-left: 250px;
+      background-position: center;
+  }
+
 .picture3{
    
-    background-image: url(/3.png);
+  background-image: url(/3.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 300px;
-    margin-top:380px;
+    margin-top:20px;
     margin-left: 250px;
 }
 .picture4{
@@ -28,7 +32,7 @@
     height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top:380px;
+    margin-top:20px;
     margin-left: -250px;
     
 }
@@ -41,5 +45,40 @@
  
     color: gray;
     width: 1.5;
+    
+}
+@media screen and (max-width: 800px){
+    picture2{
+   
+        background-image: url(/2.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 10%;
+          height: 150px;
+          margin-top:25px;
+          margin-left:-25px;
+          background-position: center;
+      }
+    
+    .picture3{
+       
+      background-image: url(/3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+        margin-top:20px;
+        margin-left: 250px;
+    }
+    .picture4{
+       background-image: url(/4.png);
+        width: 100%;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top:20px;
+        margin-left: -250px;
+        
+    }
     
 }
