@@ -1,0 +1,45 @@
+
+.img1{
+    height: 50px;
+    width: 50px;
+
+}
+.picture2{
+   
+    background-image: url(/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+.picture3{
+   
+    background-image: url(/3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    margin-top:380px;
+    margin-left: 250px;
+}
+.picture4{
+   background-image: url(/4.png);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:380px;
+    margin-left: -250px;
+    
+}
+
+#navdireccionesI a{
+    padding: 0.5em;
+   text-align: start;
+    text-decoration: none;
+    font-size: 1.5em;
+ 
+    color: gray;
+    width: 1.5;
+    
+}
